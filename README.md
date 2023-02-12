@@ -6,7 +6,7 @@
 - The data collected consists of images from three different cameras mounted on the vehicle along with the corresponding steering angles.
 - To achieve this, a Convolutional Neural Network (CNN) has been developed using the Keras library, which provides a high-level API for deep learning networks, with Tensorflow as the backend.
 
-## Dependencies
+## Project files description
 
 There are several files included in this repository:
 
@@ -29,10 +29,10 @@ The steps involved in the project are:
 
 - **Data Collection**: Collecting driving data using the Udacity simulator in training mode.
 - **Image Processing**: Analyzing, augmenting and processing the collected images.
-- **Setting up a Neural Network**: Designing, training and validating a model that predicts steering angles from image data.
+- **Setting up a Neural Network**: Designing, training and validating a model that predicts steering angles from image data. Model is inspired from the following Nvidia model (https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf)
 - **Testing the Model in the Simulator**: Using the model to drive the vehicle autonomously around the track, keeping the vehicle on the road for an entire loop.
 
-# Data collection strategy:
+## Quick note on Data collection strategy:
 
 - First download the simulator from the following link (https://github.com/udacity/self-driving-car-sim)
 - Then click on training and drive the vehicle on simulator using keyboard.
