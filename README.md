@@ -34,6 +34,9 @@ The steps involved in the project are:
 
 # Data collection strategy:
 
+- First download the simulator from the following link (https://github.com/udacity/self-driving-car-sim)
+- Then click on training and drive the vehicle on simulator using keyboard.
+- Click on Recording to record the images and corresponding steering angle.
 - The data was collected in two ways: Controlled Driving and Recovery Driving. 
 - Controlled driving involved driving the vehicle close to the center of the driving lane, while recovery driving involved special maneuvers to recover the vehicle back to the center from outside the lane. 
 - The final dataset consisted of 1 loop of centered driving in a counter-clockwise direction, 1 loop in a clockwise direction, and additional maneuver for recovery, smooth driving in curves and critical waypoints.
