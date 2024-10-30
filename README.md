@@ -11,7 +11,7 @@
 There are several files included in this repository:
 
 - **drive.py**: a Python script used to drive the car autonomously, it receives images as input for the CNN and sends back the predicted steering angle and speed.
-- **model.py**: a script to create and train the CNN, and output the trained model.
+- **Behavioral_Cloning_main.ipynb**: a python notebook to create and train the CNN, and output the trained model.
 - **model.h5**: contains the trained convolutional network.
 - **video.py**: a script to create a video of the autonomous vehicle.
 
